@@ -8,5 +8,6 @@
   "devDependencies": {
     "parcel-bundler": "~1.12.3",
     "sass": "~1.22.12"
-  }
+  },
+  "license": "MIT"
 }
