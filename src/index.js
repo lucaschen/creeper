@@ -40,3 +40,14 @@ populatePixels(creeperBackLegTop, 8, 4);
 
 const creeperBackLegSide = document.getElementById("creeper-back-leg-side");
 populatePixels(creeperBackLegSide, 4, 6);
+
+(() => {
+  const creeper = document.getElementById("creeper");
+  let isRotated = false;
+
+  setInterval(() => {
+    isRotated = !isRotated;
+    if (isRotated) creeper.classList.add("-rotate");
+    else creeper.classList.remove("-rotate");
+  }, 2500);
+})();

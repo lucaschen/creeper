@@ -20,7 +20,7 @@ body {
     transition: transform 1s;
   }
 
-  &:hover {
+  &.-rotate {
     .creeper-head,
     .creeper-body,
     .creeper-leg {
