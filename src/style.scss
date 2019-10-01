@@ -6,6 +6,7 @@ body {
 
 .creeper {
   left: 50%;
+  margin-left: 64px; // just so happens to be this amount
   position: absolute;
   perspective: none;
   perspective-origin: 50% 50%;
