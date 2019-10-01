@@ -14,6 +14,24 @@ body {
   transform: translate(-50%);
   width: 368px;
 
+  .creeper-head,
+  .creeper-body,
+  .creeper-leg {
+    transition: transform 1s;
+  }
+
+  &:hover {
+    .creeper-head,
+    .creeper-body,
+    .creeper-leg {
+      transform: rotateX(0) rotateY(0) rotateZ(0);
+    }
+
+    .creeper-leg.-back {
+      transform: rotateX(0) rotateY(0) rotateZ(0) translateZ(-16rem);
+    }
+  }
+
   > .creeper-head {
     left: 0;
     position: absolute;
@@ -832,27 +850,27 @@ body {
 
       > .pixel {
         &.-pos-0-0 {
-          background-color: transparent;
+          background-color: #789573;
         }
 
         &.-pos-1-0 {
-          background-color: transparent;
+          background-color: #0e7b0b;
         }
 
         &.-pos-2-0 {
-          background-color: transparent;
+          background-color: #37822f;
         }
 
         &.-pos-3-0 {
-          background-color: transparent;
+          background-color: #729072;
         }
 
         &.-pos-4-0 {
-          background-color: transparent;
+          background-color: #989898;
         }
 
         &.-pos-5-0 {
-          background-color: transparent;
+          background-color: #609f54;
         }
 
         &.-pos-6-0 {
