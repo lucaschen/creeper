@@ -1,0 +1,12 @@
+{
+  "name": "creeper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "~1.12.3",
+    "sass": "~1.22.12"
+  }
+}
